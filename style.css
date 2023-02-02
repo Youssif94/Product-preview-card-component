@@ -1,0 +1,100 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);}
+
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://fonts.google.com/specimen/Fraunces);
+
+body{
+    font-family: Montserrat,Fraunces;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.my-container{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns:repeat(12,1fr);
+    grid-template-rows: 1fr;
+    
+}
+
+.row{
+    /* border: 1px solid black; */
+    grid-column: 6/10;
+}
+
+.img{
+    margin-right: 40px;
+}
+
+.img>img{
+    height: 450px;
+    width: 300px;
+    object-fit: contain;
+    border-radius:10px;
+}
+
+.container{
+    margin: 0 auto;
+    width:40%;
+    display: grid;
+    background-color: whitesmoke;
+    border-radius:10px;
+    
+}
+
+
+.sub-title{
+    font-weight: 300;
+}
+
+.desc{
+    width: 85%;
+}
+
+.prices{
+    display: flex;
+}
+
+.current-price{
+    font-size: 32px;
+    color: green;
+    font-weight: bold;
+    width: 61%;
+    font-family: Montserrat,Fraunces;
+
+}
+
+.old-price{
+    text-decoration: line-through;
+    align-items: center;
+    display: flex;
+    
+}
+
+.title{
+    font-family: Fraunces;
+    width: 63%;
+    font-size:32px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 15px 65px;
+    color: white;
+    font-size: large;
+    width:max-content;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 5px;
+    border: 0;
+    margin-top: 25px;
+}
+
+.btn>i{
+    margin-right: 10px;
+}
